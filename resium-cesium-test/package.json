@@ -1,0 +1,31 @@
+{
+  "name": "resium-cesium-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "symlink-dir node_modules/cesium/Build/Cesium public/cesium"
+  },
+  "dependencies": {
+    "@types/node": "20.2.3",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "cesium": "^1.105.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3",
+    "html-webpack-plugin": "^5.5.1",
+    "html-webpack-tags-plugin": "^3.0.2",
+    "next": "13.4.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "resium": "^1.16.1",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "symlink-dir": "^5.1.1"
+  }
+}
